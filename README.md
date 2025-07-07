@@ -1,3 +1,6 @@
+# ECIMP
+`Event Causality Identification via Derivative Prompt Joint Learning`
+
 论文代码
 ## Requirements
 - beautifulsoup4==4.10.0
@@ -10,6 +13,12 @@
 
 ## 运行代码
 使用了Timebank和Eventstory两种数据集，且Timebank十折交叉验证  Eventstory五折交叉验证
+
+### 改进说明
+本代码在原始论文基础上进行了以下改进：
+1. 添加了第四个模板作为负样本，增强了模型对负例的识别能力
+2. 使用PolaLinearAttention替代原先的门控单元，提升了特征融合效果
+
 ### Roberta+linear baseline
 当使用Timebank数据集时:
 ```shell
