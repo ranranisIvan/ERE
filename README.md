@@ -1,6 +1,3 @@
-# ECIMP
-`Event Causality Identification via Derivative Prompt Joint Learning`
-
 论文代码
 ## Requirements
 - beautifulsoup4==4.10.0
